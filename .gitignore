@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# DFT raw output (large binary/text files — keep scripts, not raw data)
+*.out
+*.wfc*
+*.save/
+WAVECAR
+CHGCAR
+CHG
+DOSCAR
+EIGENVAL
+IBZKPT
+PCDAT
+REPORT
+XDATCAR
+vasprun.xml
+OUTCAR.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
