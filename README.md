@@ -39,11 +39,9 @@ associative alternating, associative distal, and dissociative.
 ├── notebooks/                  # Numbered analysis notebooks (outputs included)
 │   ├── 01_bader_charge_n2.ipynb
 │   ├── 02_bader_charge_orientations.ipynb
-│   ├── 03_n2_adsorption_descriptors.ipynb
 │   ├── 04_n2_adsorption_energy.ipynb
 │   ├── 05_h2_adsorption_energy.ipynb
 │   ├── 06_reaction_path_analysis.ipynb
-│   ├── 07_soe_analysis.ipynb
 │   └── 08_final_comparison.ipynb
 │
 ├── scripts/                    # Command-line automation tools
@@ -107,11 +105,9 @@ print(top_barriers)
 |----------|-------------|
 | `01_bader_charge_n2.ipynb` | Bader charge analysis of N2 adsorption on all catalyst systems |
 | `02_bader_charge_orientations.ipynb` | Bader charges for N2 vertical, horizontal, and N2H orientations |
-| `03_n2_adsorption_descriptors.ipynb` | N2 adsorption descriptors: charge transfer, bond length, site preference |
 | `04_n2_adsorption_energy.ipynb` | N2 adsorption energy vs. N–N bond length correlations |
 | `05_h2_adsorption_energy.ipynb` | H2 adsorption energy analysis (HER competing pathway) |
 | `06_reaction_path_analysis.ipynb` | Free energy diagrams for all three NRR pathways and HER; barrier analysis |
-| `07_soe_analysis.ipynb` | Spillover energies (SOEs); correlation with Bader charge and ΔX |
 | `08_final_comparison.ipynb` | Final ranking of all catalysts; NRR vs HER selectivity |
 
 ---
