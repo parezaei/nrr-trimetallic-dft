@@ -8,7 +8,7 @@ Raw `.in`/`.out`/`OUTCAR` files are not included due to size.
 ```
 data/
 ├── reaction_paths/     # Energetics for NRR and HER free energy diagrams
-├── soe/                # Surface Occupation Energies relative to CuNi
+├── soe/                # Spillover Energies relative to CuNi
 └── bader_charge/
     ├── N2/             # Bader charge analysis for N2 adsorption
     ├── H2/             # Bader charge analysis for H2 adsorption

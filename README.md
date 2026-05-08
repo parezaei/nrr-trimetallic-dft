@@ -19,7 +19,7 @@ associative alternating, associative distal, and dissociative.
 ## Key Findings
 
 - Identified electronic descriptors (Bader charge, electronegativity difference)
-  that correlate with surface occupation energies (SOEs) for NxHy intermediates
+  that correlate with spillover energies (SOEs) for NxHy intermediates
 - Compared free energy barriers across three N2 reduction pathways and the
   competing HER pathway for all nine catalysts
 - Showed that dopant charge is a strong predictor of N2 and NH3 adsorption
@@ -111,7 +111,7 @@ print(top_barriers)
 | `04_n2_adsorption_energy.ipynb` | N2 adsorption energy vs. N–N bond length correlations |
 | `05_h2_adsorption_energy.ipynb` | H2 adsorption energy analysis (HER competing pathway) |
 | `06_reaction_path_analysis.ipynb` | Free energy diagrams for all three NRR pathways and HER; barrier analysis |
-| `07_soe_analysis.ipynb` | Surface occupation energies; correlation with Bader charge and ΔX |
+| `07_soe_analysis.ipynb` | Spillover energies (SOEs); correlation with Bader charge and ΔX |
 | `08_final_comparison.ipynb` | Final ranking of all catalysts; NRR vs HER selectivity |
 
 ---

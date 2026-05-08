@@ -1,7 +1,7 @@
 """
 Energetics calculations for NRR on bimetallic surfaces.
 
-Covers adsorption energies, surface occupation energies (SOEs),
+Covers adsorption energies, spillover energies (SOEs),
 free energy diagrams for N2 reduction pathways, and HER pathway.
 All energies are in eV unless otherwise noted.
 """
@@ -123,7 +123,7 @@ def compute_soe(
     system_col: str = "system",
 ) -> pd.DataFrame:
     """
-    Compute Surface Occupation Energies (SOEs) relative to a reference system.
+    Compute Spillover Energies (SOEs) relative to a reference system.
 
     SOE = E_ads(dopant) - E_ads(reference)
 
