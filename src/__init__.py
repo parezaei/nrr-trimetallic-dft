@@ -3,7 +3,7 @@ nrr-bimetallic-dft: Analysis toolkit for nitrogen reduction reaction (NRR)
 on bimetallic Cu/Ni-based surfaces from DFT calculations.
 """
 
-from .energetics import (
+from .thermochemistry import (
     MOLECULE_ENERGIES_EV,
     SYSTEMS_LABEL_MAP,
     RY_TO_EV,

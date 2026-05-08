@@ -27,7 +27,7 @@ associative alternating, associative distal, and dissociative.
 
 ```
 ├── src/                        # Core Python library
-│   ├── energetics.py           # Adsorption energies, SOEs, reaction path calculations
+│   ├── thermochemistry.py           # Adsorption energies, SOEs, reaction path calculations
 │   ├── analysis.py             # Correlation analysis, linear regression, normalization
 │   ├── visualization.py        # Publication-quality plotting functions
 │   └── qe_postprocess.py       # Quantum ESPRESSO output parsing & restart generation
