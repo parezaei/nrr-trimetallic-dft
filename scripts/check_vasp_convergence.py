@@ -8,7 +8,7 @@ POSCAR for resubmission.
 
 Usage
 -----
-    python check_vasp_convergence.py --material_dir /scratch/ML_project/Satvik/0_Al13Fe4 \
+    python check_vasp_convergence.py --material_dir /path/to/material/directory \
         --mols 2_N2 3_H2 --cluster narval [--rerun]
 """
 
