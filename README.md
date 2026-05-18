@@ -39,10 +39,10 @@ associative alternating, associative distal, and dissociative.
 ├── notebooks/                  # Numbered analysis notebooks (outputs included)
 │   ├── 01_bader_charge_n2.ipynb
 │   ├── 02_bader_charge_orientations.ipynb
-│   ├── 04_n2_adsorption_energy.ipynb
-│   ├── 05_h2_adsorption_energy.ipynb
-│   ├── 06_reaction_path_analysis.ipynb
-│   └── 08_final_comparison.ipynb
+│   ├── 03_n2_adsorption_energy.ipynb
+│   ├── 04_h2_adsorption_energy.ipynb
+│   ├── 05_reaction_path_analysis.ipynb
+│   └── 06_final_comparison.ipynb
 │
 ├── scripts/                    # Command-line automation tools
 │   ├── generate_restart_files.py   # Post-process QE outputs → restart inputs
